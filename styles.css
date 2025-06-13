@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+}
+
+.customShadowForText{
+    text-shadow: 2px 2px 2px black;
+}
+
+.nav-link{
+    font-size: 20px !important;
+}
+.customImg{
+    width: 150px ;
+    height: 150px;
+}
