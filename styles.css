@@ -13,3 +13,28 @@
     width: 150px ;
     height: 150px;
 }
+
+.social-media{
+    padding-bottom: 40px;
+}
+.icon-list{
+     display: flex;
+     justify-content: center;
+     gap: 20px;
+     font-size: larger;  
+}
+.icons{
+    font-size: x-large;
+    width: 57px;
+    background-color: rgb(43, 42, 42);
+    color: white;
+    padding: 10px;
+    padding-left: 16px;
+    border-radius: 50%;
+    transition: transform 0.5s;
+}
+.icons:hover{
+    background-color: white;
+    color: rgb(27, 145, 52) ;
+    transform: translateY(-10px);
+}
