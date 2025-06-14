@@ -14,6 +14,14 @@
     height: 150px;
 }
 
+.bgColor{
+    background-color: rgb(228, 247, 232);
+}
+
+.links{
+    color: rgb(10, 88, 10);
+}
+
 .social-media{
     padding-bottom: 40px;
 }

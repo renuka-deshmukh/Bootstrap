@@ -16,12 +16,12 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
 </head>
 
-<body>
+<body style="background-color:rgb(228, 247, 232);;">
     <h1 class="bg-success text-center text-light py-2 customShadowForText">Online Grocery Shop</h1>
 
     <header>
         <!-- place navbar here -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-success sticky-top">
             <div class="container-fluid">
                 <a class="navbar-brand fw-bold fs-4 customShadowForText " href="#">Grocery</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -125,17 +125,17 @@
             </div>
 
         </div>
-        <h1 class="bg-success text-center text-light py-2 customShadowForText">Shop By Category</h1>
+        <h1 class="bg-success text-center text-light py-2 mb-0 customShadowForText">Shop By Category</h1>
 
-        <div class="container">
+        <div class="container-fluid py-4 bgColor">
             <div class="row">
                 <div class="col-6 col-md-4 col-lg-3 my-4 text-center">
-
-
                     <a href=""><img src="./assets/Fruits.jpg" alt="img not shown"
                             class="img-fluid rounded-circle customImg"></a>
                     <div>
-                        <p class="fw-bold fs-5">Fruits</p>
+                        <a style="text-decoration: none;" href="">
+                            <p class="fw-bold fs-5 links">Fruits</p>
+                        </a>
                     </div>
                 </div>
 
@@ -143,7 +143,9 @@
                     <a href=""><img src="./assets/Vegetables.jpg" alt="img not shown"
                             class=" img-fluid rounded-circle customImg"></a>
                     <div>
-                        <p class="fw-bold fs-5">Vegitable</p>
+                        <a style="text-decoration: none;" href="">
+                            <p class="fw-bold fs-5 links">Vegitable</p>
+                        </a>
                     </div>
                 </div>
 
@@ -151,7 +153,9 @@
                     <a href=""><img src="./assets/DairyProducts.jpg" alt="img not shown"
                             class=" img-fluid rounded-circle customImg"></a>
                     <div>
-                        <p class="fw-bold fs-5">Dairy Products</p>
+                        <a style="text-decoration: none;" href="">
+                            <p class="fw-bold fs-5 links">Dairy Products</p>
+                        </a>
                     </div>
                 </div>
 
@@ -159,7 +163,9 @@
                     <a href=""><img src="./assets/Snacks.jpg" alt="img not shown"
                             class="img-fluid rounded-circle customImg"></a>
                     <div>
-                        <p class="fw-bold fs-5">Snacks</p>
+                        <a style="text-decoration: none;" href="">
+                            <p class="fw-bold fs-5 links">Snacks</p>
+                        </a>
                     </div>
                 </div>
 
@@ -167,7 +173,9 @@
                     <a href=""> <img src="./assets/Spices.jpg" alt="img not shown"
                             class=" img-fluid rounded-circle customImg"></a>
                     <div>
-                        <p class="fw-bold fs-5">Spices</p>
+                        <a style="text-decoration: none;" href="">
+                            <p class="fw-bold fs-5 links">Spices</p>
+                        </a>
                     </div>
                 </div>
 
@@ -175,7 +183,9 @@
                     <a href=""><img src="./assets/DryFruits.jpg" alt="img not shown"
                             class="img-fluid rounded-circle customImg"></a>
                     <div>
-                        <p class="fw-bold fs-5">Dry Fruits</p>
+                        <a style="text-decoration: none;" href="">
+                            <p class="fw-bold fs-5  links">Dry Fruits</p>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -183,7 +193,7 @@
 
 
         <div class="container">
-            <h2 class="text-black">Vegetables</h2>
+            <h2 class="text-black mt-4">Vegetables</h2>
 
             <div class="row py-2">
                 <div class="col">
@@ -401,7 +411,7 @@
         <div class="modal-dialog">
             <div class="modal-content rounded-4 shadow">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="loginModalLabel">Login with Phone Number</h5>
+                    <h5 class="modal-title" id="loginModalLabel">Login or Sign Up</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -409,8 +419,8 @@
                         <div class="mb-3">
                             <div class="input-group">
                                 <span class="input-group-text">+91</span>
-                                <input type="tel" class="form-control" id="phoneNumber"
-                                    placeholder="Enter Mobile number fw-bold" required>
+                                <input type="tel" class="form-control fw-bold" id="phoneNumber"
+                                    placeholder="Enter Mobile number" required>
                             </div>
                         </div>
                         <div class="text-center">
